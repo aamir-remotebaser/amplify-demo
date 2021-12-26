@@ -38,8 +38,8 @@ const App = () => {
       {
        customers.map((thisCustomer, index) => {
          return (
-        <div key={thisCustomer.customerId}>
-          <span><b>CustomerId:</b> {thisCustomer.customerId} - <b>CustomerName</b>: {thisCustomer.customerName}</span>
+        <div key={thisCustomer.customer_Id}>
+          <span><b>CustomerId:</b> {thisCustomer.customer_Id} - <b>CustomerName</b>: {thisCustomer.customer_Name}</span>
         </div>)
        })
       }
