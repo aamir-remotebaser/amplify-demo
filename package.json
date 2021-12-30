@@ -18,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "amplify:amplifydemoapp55ca3df9": "cd amplify-functions/function-amplifydemoapp55ca3df9; mv src/* ../../amplify/backend/function/amplifydemoapp55ca3df9/src/",
-    "amplify:amplifydemoapp06060d33": "cd amplify-functions/function-amplifydemoapp06060d33; mv src/* ../../amplify/backend/function/amplifydemoapp06060d33/src/"
+    "amplify:amplifydemoapp55ca3df9": "cd amplify-functions/amplifydemoapp55ca3df9; mv src/* ../../amplify/backend/function/amplifydemoapp55ca3df9/src/",
+    "amplify:amplifydemoapp06060d33": "cd amplify-functions/amplifydemoapp06060d33; mv src/* ../../amplify/backend/function/amplifydemoapp06060d33/src/"
   },
   "eslintConfig": {
     "extends": [
